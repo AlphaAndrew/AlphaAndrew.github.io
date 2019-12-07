@@ -1,0 +1,336 @@
+@charset "utf-8";
+/*General CSS*/
+.bodyContainer {
+    width: 100%;
+    background-color: #132453;
+    height: 100%;
+    margin-left: 0px;
+}
+.extraBody{
+	width: 100%;
+    background-color: #132453;
+    height: 200px;
+}
+a { color: inherit; }
+
+a:hover {
+	color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/*NAVBAR Start*/
+.header {
+    width: 40%;
+    height: 50px;
+    position: fixed;
+    left: 30%;
+    background-color: #288BE7;
+    z-index: 99;
+	font-family: 'Oswald', sans-serif;
+}
+.horizontalList {
+    font-size: 30px;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+/* Dropdown Button */
+.dropbtn {
+    font-size: 30px;
+    border: none;
+    text-align: center;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 33%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #288BE7;
+    height: auto;
+    width: 100%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #1365B2;}
+.horizontalList:hover {background-color: #1365B2;}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #1365B2;
+}
+
+/*NAVBAR End*/
+
+/*Top Section CSS Start*/
+
+.bannerImage {
+    background-image: url("Images/Code1800_1080.png");
+    width: 100%;
+    height: 650px;
+    background-color: #422FE7;
+    z-index: -5;
+    opacity: 1;
+}
+.myNamePanel{
+    background-color: rgba(0,0,0,0.75);
+    position: relative;
+    top: 200px;
+    width: 50%;
+    left: 25%;
+    height: 250px;
+    opacity: 1;
+}
+.myName {
+    font-size: 100px;
+    height: 100px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-style: oblique;
+    color: #FFFFFF;
+    z-index: 1;
+	font-family: 'Oxygen', sans-serif;
+}
+.aboutMe {
+    width: 40%;
+    height: 250px;
+    position: relative;
+    left: 30%;
+    background-color: #203E8D;
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'Roboto Slab', serif;
+}
+.jobTitle {
+    font-size: 40px;
+    height: 100px;
+    position: relative;
+    width: 50%;
+    left: 25%;
+    top: 50px;
+    text-align: center;
+    font-style: oblique;
+    color: #FFFFFF;
+    z-index: 1;
+}
+/*Top Section CSS End*/
+
+/*Projects Section CSS Start*/
+.projectsSection {
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    font-size: 75px;
+    color: #FFFFFF;
+    border-top: 15px solid #00062A;
+    font-family: 'Prompt', sans-serif;
+}
+.projectTrailer{
+    width: 50%;
+    height: 500px;
+    background-color: #E02023;
+    position: relative;
+    left: 25%;
+    top: 75px;
+}
+.projectBox {
+    width: 75%;
+    height: 300px;
+    background-color: #C74343;
+    position: relative;
+    left: 12.5%;
+    border-left: 1px solid #79CBD8;
+    border-right: 1px solid #79CBD8;
+    border-bottom: 1px solid #79CBD8;
+    border-top: 1px solid #79CBD8;
+    text-decoration: underline;
+}
+.projectIcon {
+    width: 30%;
+    background-color: #0A871C;
+    height: 100%;
+    float: left;
+    clear: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projectHeader {
+    width: 100%;
+    height: 100px;
+    color: #FFFFFF;
+    font-size: 50px;
+	font-family: 'Prompt', sans-serif;
+}
+.projectText {
+    width: 70%;
+    height: 100%;
+    position: relative;
+    float: right;
+    text-align: left;
+    border-left: 3px solid #79CBD8;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.projectTextTitle {
+    width: 100%;
+    height: 20%;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    background-color: #AB3232;
+    border-bottom: 2px solid #79CBD8;
+}
+.projectTextLink {
+    width: 100%;
+    height: 10%;
+    color: #8FACF0;
+    font-size: 25px;
+    text-align: center;
+}
+
+.projectTextBody {
+    width: 100%;
+    height: 65%;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.projectPageTitle {
+    width: 100%;
+    height: 100px;
+    color: #FFFFFF;
+    font-size: 75px;
+    text-align: center;
+    left: auto;
+    position: relative;
+    top: 50px;
+}
+/*Projects Section CSS End*/
+
+/*Portfolio Section CSS Start*/
+.portfolioBox {
+    width: 75%;
+    height: 325px;
+    background-color: #C74343;
+    position: relative;
+    left: 12.5%;
+    border-left: 1px solid #79CBD8;
+    border-right: 1px solid #79CBD8;
+    border-bottom: 1px solid #79CBD8;
+    border-top: 1px solid #79CBD8;
+}
+.portfolioText {
+    width: 60%;
+    position: relative;
+    height: 100%;
+    float: right;
+}
+.portfolioTextBody   {
+    width: 100%;
+    height: 80%;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+.portfolioTextTitle   {
+    width: 100%;
+    height: 20%;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    background-color: #AB3232;
+    border-bottom: 2px solid #79CBD8;
+}
+
+
+
+.portfolioVideo {
+    width: 40%;
+    height: 100%;
+    background-color: #0A871C;
+    position: relative;
+    border-left: 1px solid #79CBD8;
+    border-right: 1px solid #79CBD8;
+    border-bottom: 1px solid #79CBD8;
+    border-top: 1px solid #79CBD8;
+    float: left;
+    clear: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portfolioTitle {
+    height: 50px;
+    color: #FFFFFF;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*Portfolio Section CSS End*/
+/*Resume Section CSS Start*/
+.resumeSection{
+    width: 100%;
+    height: 1300px;
+	
+}
+.resumeTitle{
+    width: 100%;
+    height: 100px;
+    font-size: 75px;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    top: 50px;
+	
+}
+.resumeDownload{
+    width: 50%;
+    height: 50px;
+    font-size: 35px;
+    color: #3E9DE1;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    display: inline-block;
+    left: 25%;
+}
+.resumeImage{
+    background-color: #7B2C2D;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    height: 1200px;
+    top: 50px;
+}
+/*Resume Section CSS End*/
