@@ -1,10 +1,17 @@
 @charset "utf-8";
 /*General CSS*/
-.bodyContainer {
+html,body
+{
     width: 100%;
-    background-color: #132453;
     height: 100%;
-    margin-left: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bodyContainer {
+	width: 100%;
+	background-color: #132453;
+	height: 2000px;
 }
 .extraBody{
 	width: 100%;
@@ -93,13 +100,13 @@ a:hover {
     opacity: 1;
 }
 .myNamePanel{
-    background-color: rgba(0,0,0,0.75);
-    position: relative;
-    top: 200px;
-    width: 50%;
-    left: 25%;
-    height: 250px;
-    opacity: 1;
+	background-color: rgba(0,0,0,0.75);
+	width: 50%;
+	left: 25%;
+	height: 250px;
+	opacity: 1;
+	padding-top: 0px;
+	position: relative;
 }
 .myName {
     font-size: 100px;
@@ -113,15 +120,16 @@ a:hover {
 	font-family: 'Oxygen', sans-serif;
 }
 .aboutMe {
-    width: 40%;
-    height: 250px;
-    position: relative;
-    left: 30%;
-    background-color: #203E8D;
-    text-align: center;
-    font-size: 25px;
-    color: #FFFFFF;
-    font-family: 'Roboto Slab', serif;
+	width: 40%;
+	height: 250px;
+	position: relative;
+	left: 30%;
+	background-color: #C74343;
+	text-align: center;
+	font-size: 25px;
+	color: #FFFFFF;
+	font-family: 'Roboto Slab', serif;
+	border: 1px solid #79CBD8;
 }
 .jobTitle {
     font-size: 40px;
@@ -139,13 +147,12 @@ a:hover {
 
 /*Projects Section CSS Start*/
 .projectsSection {
-    width: 100%;
-    height: 1000px;
-    text-align: center;
-    font-size: 75px;
-    color: #FFFFFF;
-    border-top: 15px solid #00062A;
-    font-family: 'Prompt', sans-serif;
+	width: 100%;
+	height: 1000px;
+	text-align: center;
+	font-size: 75px;
+	color: #FFFFFF;
+	font-family: 'Prompt', sans-serif;
 }
 .projectTrailer{
     width: 50%;
@@ -333,4 +340,64 @@ a:hover {
     height: 1200px;
     top: 50px;
 }
-/*Resume Section CSS End*/
+
+@media (max-width:360px){
+	.bodyContainer{
+		height: 2000px;
+	}
+/*NAVBAR Start*/
+	.header {
+    	width: 100%;
+    	height: 25px;
+    	left: 0%;
+}
+	.horizontalList {
+    	font-size: 15px;
+}
+/* Dropdown Button */
+	.dropbtn {
+    	font-size: 15px;
+}
+	.dropdown-content {
+		font-size: 15px;
+}
+
+/*NAVBAR End*/
+
+/*Top Section Start*/
+	.myNamePanel{
+		top: 100px;
+		height: 150px;
+		width: 100%;
+		left: 0%;
+	}
+	.myName{
+		height: 50px;
+		font-size: 35px;
+	}
+	.jobTitle{
+		height: 50px;
+		font-size: 25px;
+	}
+	.bannerImage{
+		height: 300px;
+	}
+	.aboutMe{
+		width: 80%;
+		left: 10%;
+		font-size: 18px;
+	}
+/*Top Section End*/
+/*Project Section Start*/
+	.projectsSection{
+		font-size: 55px;
+	}
+	.projectHeader{
+		font-size: 35px;
+		height: 50px;
+	}
+	.projectBox{
+		widows: 100%;
+		letter-spacing: 0%;;
+	}
+}
