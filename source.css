@@ -415,10 +415,33 @@ a:hover {
 	/*Project End*/
 	/*Portfolio Start*/
 	.projectPageTitle{
-		height: 50px;
+		height: 60px;
 		font-size: 30px;
 	}
 	.portfolioTitle{
-	height: 84px;
+		height: 50px;
+	}
+	.portfolioBox{
+		height: 500px;
+		width: 100%;
+		left: 0%;
+	}
+	.portfolioVideo{
+		width: 100%;
+		height: 225px;
+		float: none;
+	}
+	.portfolioText{
+		height: 50%;
+		width:100%;
+	}
+	.portfolioTextTitle{
+		width:100%;
+		left:0%;
+		font-size: 30px;
+	}
+	.portfolioTextBody{
+		height: 100%;
+		font-size: 15px;
 	}
 }
