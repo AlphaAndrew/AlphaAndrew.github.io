@@ -7,12 +7,29 @@ html,body
     margin: 0px;
     padding: 0px;
 }
-
-.bodyContainer {
+.bodyContainerHome {
 	width: 100%;
 	background-color: #132453;
 	height: 2000px;
 }
+.bodyContainerBTM {
+	width: 100%;
+	background-color: #132453;
+	height: 1300px;
+}
+.bodyContainerLAW {
+	width: 100%;
+	background-color: #132453;
+	height: 1400px;
+}
+.bodyContainerResume {
+	width: 100%;
+	background-color: #132453;
+	height: 1300px;
+}
+
+
+
 .extraBody{
 	width: 100%;
     background-color: #132453;
@@ -102,7 +119,7 @@ a:hover {
 .myNamePanel{
 	background-color: rgba(0,0,0,0.75);
 	width: 100%;
-	height: 100%;
+	height: 2000px;
 	opacity: 1;
 	padding-top: 0px;
 	position: relative;
@@ -279,19 +296,19 @@ a:hover {
 
 
 .portfolioVideo {
-    width: 40%;
-    height: 100%;
-    background-color: #0A871C;
-    position: relative;
-    border-left: 1px solid #79CBD8;
-    border-right: 1px solid #79CBD8;
-    border-bottom: 1px solid #79CBD8;
-    border-top: 1px solid #79CBD8;
-    float: left;
-    clear: right;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	width: 40%;
+	height: 100%;
+	background-color: #000000;
+	position: relative;
+	border-left: 1px solid #79CBD8;
+	border-right: 1px solid #79CBD8;
+	border-bottom: 1px solid #79CBD8;
+	border-top: 1px solid #79CBD8;
+	float: left;
+	clear: right;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 .portfolioTitle {
 	height: 50px;
@@ -336,8 +353,11 @@ a:hover {
 }
 
 @media (max-width:415px){
-		.bodyContainer{
+	.bodyContainerHome{
 		height: 1200px;
+	}
+	.bodyContainerBTM{
+		height: 1800px;
 	}
 /*NAVBAR Start*/
 	.header {
@@ -428,7 +448,7 @@ a:hover {
 	}
 	.portfolioVideo{
 		width: 100%;
-		height: 225px;
+		height: 45%;
 		float: none;
 	}
 	.portfolioText{
@@ -442,6 +462,6 @@ a:hover {
 	}
 	.portfolioTextBody{
 		height: 100%;
-		font-size: 15px;
+		font-size: 14px;
 	}
 }
