@@ -16,7 +16,7 @@ html,body
 .bodyContainerBTM {
 	width: 100%;
 	background-color: #132453;
-	height: 1300px;
+	height: 1800px;
 }
 .bodyContainerLAW {
 	width: 100%;
@@ -173,12 +173,11 @@ a:hover {
 	font-family: 'Prompt', sans-serif;
 }
 .projectTrailer{
-    width: 50%;
-    height: 500px;
-    background-color: #E02023;
-    position: relative;
-    left: 25%;
-    top: 75px;
+	width: 50%;
+	height: 475px;
+	position: relative;
+	left: 25%;
+	top: 75px;
 }
 .projectBox {
     width: 75%;
