@@ -228,14 +228,13 @@ a:hover {
 }
 
 .projectPageTitle {
-    width: 100%;
-    height: 100px;
-    color: #FFFFFF;
-    font-size: 75px;
-    text-align: center;
-    left: auto;
-    position: relative;
-    top: 50px;
+	width: 100%;
+	height: 100px;
+	color: #FFFFFF;
+	font-size: 75px;
+	text-align: center;
+	position: relative;
+	padding-top: 50px;
 }
 /*Projects Section CSS End*/
 
@@ -295,11 +294,8 @@ a:hover {
     margin-right: auto;
 }
 .portfolioTitle {
-    height: 50px;
-    color: #FFFFFF;
-    width: 100%;
-    font-size: 30px;
-    text-align: center;
+	height: 50px;
+	width: 100%;
 }
 
 /*Portfolio Section CSS End*/
@@ -339,9 +335,9 @@ a:hover {
     top: 50px;
 }
 
-@media (max-width:360px){
+@media (max-width:415px){
 	.bodyContainer{
-		height: 2000px;
+		height: 1500px;
 	}
 /*NAVBAR Start*/
 	.header {
@@ -374,12 +370,12 @@ a:hover {
 		font-size: 35px;
 	}
 	.jobTitle{
-	height: 50px;
-	width: 100%;
-	font-size: 25px;
-	left: 0%;
-	padding-top: 0px;
-	margin-top: -50px;
+		height: 50px;
+		width: 100%;
+		font-size: 25px;
+		left: 0%;
+		padding-top: 0px;
+		margin-top: -50px;
 	}
 	.bannerImage{
 		height: 300px;
@@ -395,7 +391,7 @@ a:hover {
 		font-size: 55px;
 	}
 	.projectHeader{
-		font-size: 35px;
+		font-size: 30px;
 		height: 50px;
 	}
 	.projectBox{
@@ -416,5 +412,14 @@ a:hover {
 	}
 	.projectTextLink{
 		font-size: 24px;
+	}
+	/*Project End*/
+	/*Portfolio Start*/
+	.projectPageTitle{
+		height: 50px;
+		font-size: 30px;
+	}
+	.portfolioTitle{
+	height: 84px;
 	}
 }
