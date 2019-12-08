@@ -362,7 +362,7 @@ a:hover {
 		height: 1600px;
 	}
 	.bodyContainerResume{
-	height: 2000px;
+    height: 800px;
 	}
 /*NAVBAR Start*/
 	.header {
@@ -477,7 +477,7 @@ a:hover {
 	/*Portfolio End*/
 	/*Resume Start*/
 	.resumeSection{
-	height: 2000px;
+    height: 800px;
 	}
 	.resumeTitle{
 		font-size: 50px;
