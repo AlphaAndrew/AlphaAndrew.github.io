@@ -175,14 +175,12 @@ a:hover {
     text-decoration: underline;
 }
 .projectIcon {
-    width: 30%;
-    background-color: #0A871C;
-    height: 100%;
-    float: left;
-    clear: right;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	width: 30%;
+	background-color: #0A871C;
+	height: 100%;
+	float: left;
+	clear: right;
+	display: block;
 }
 .projectHeader {
     width: 100%;
@@ -397,7 +395,22 @@ a:hover {
 		height: 50px;
 	}
 	.projectBox{
-		widows: 100%;
-		letter-spacing: 0%;;
+		width: 100%;
+		left: 0%;
+	}
+	.projectIcon{
+		display: none
+	}
+	.projectText{
+		width: 100%;
+	}
+	.projectTextTitle{
+		font-size: 20px;
+	}
+	.projectTextBody{
+		font-size: 12px;
+	}
+	.projectTextLink{
+		font-size: 24px;
 	}
 }
