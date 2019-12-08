@@ -362,6 +362,9 @@ a:hover {
 	.bodyContainerLAW{
 		height: 1750px;
 	}
+	.bodyContainerResume{
+	height: 900px;
+	}
 /*NAVBAR Start*/
 	.header {
     	width: 100%;
@@ -472,4 +475,23 @@ a:hover {
 		height: 100%;
 		font-size: 14px;
 	}
+	/*Portfolio End*/
+	/*Resume Start*/
+	.resumeSection{
+		height: 800px;
+	}
+	.resumeTitle{
+		font-size: 50px;
+	}
+	.resumeDownload{
+		width: 100%;
+		left: 0%;
+		font-size: 20px;
+	}
+	.resumeImage{
+		height: 600px;
+		width: 100%;
+		left:0%;
+	}
+	/*Rsume End*/
 }
