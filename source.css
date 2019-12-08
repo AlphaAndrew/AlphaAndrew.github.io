@@ -360,7 +360,7 @@ a:hover {
 		height: 1800px;
 	}
 	.bodyContainerLAW{
-		height: 1750px;
+		height: 1600px;
 	}
 	.bodyContainerResume{
 	height: 900px;
@@ -446,8 +446,8 @@ a:hover {
 	}
 	.projectTrailer{
 		height: 300px;
-		width:100%;
-		left:0%;
+		width:90%;
+		left:5%;
 	}
 	.portfolioTitle{
 		height: 50px;
