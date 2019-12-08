@@ -444,9 +444,10 @@ a:hover {
 		font-size: 30px;
 	}
 	.projectTrailer{
-		height: 300px;
-		width:90%;
-		left:5%;
+    height: 300px;
+    width: 90%;
+    left: 5%;
+    background-color: #000000;
 	}
 	.portfolioTitle{
 		height: 50px;
