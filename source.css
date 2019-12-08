@@ -337,7 +337,7 @@ a:hover {
 
 @media (max-width:415px){
 		.bodyContainer{
-		height: 1500px;
+		height: 1200px;
 	}
 /*NAVBAR Start*/
 	.header {
@@ -360,22 +360,20 @@ a:hover {
 
 /*Top Section Start*/
 	.myNamePanel{
-		padding-top: 100px;
 		height: 100%;
 		width: 100%;
-		left: 0%;
 	}
 	.myName{
 		height: 50px;
 		font-size: 35px;
+		padding-top: 100px;
 	}
 	.jobTitle{
 		height: 50px;
 		width: 100%;
 		font-size: 25px;
 		left: 0%;
-		padding-top: 0px;
-		margin-top: -50px;
+		padding-top: 60px;
 	}
 	.bannerImage{
 		height: 300px;
@@ -389,6 +387,7 @@ a:hover {
 /*Project Section Start*/
 	.projectsSection{
 		font-size: 55px;
+		height: 800px;
 	}
 	.projectHeader{
 		font-size: 30px;
