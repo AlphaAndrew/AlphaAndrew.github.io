@@ -364,8 +364,8 @@ a:hover {
 
 /*Top Section Start*/
 	.myNamePanel{
-		top: 100px;
-		height: 150px;
+		padding-top: 100px;
+		height: 100%;
 		width: 100%;
 		left: 0%;
 	}
@@ -374,8 +374,12 @@ a:hover {
 		font-size: 35px;
 	}
 	.jobTitle{
-		height: 50px;
-		font-size: 25px;
+	height: 50px;
+	width: 100%;
+	font-size: 25px;
+	left: 0%;
+	padding-top: 0px;
+	margin-top: -50px;
 	}
 	.bannerImage{
 		height: 300px;
