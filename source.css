@@ -11,6 +11,7 @@ html,body
 	width: 100%;
 	background-color: #132453;
 	height: 2000px;
+	border-left-width: medium;
 }
 .bodyContainerBTM {
 	width: 100%;
@@ -207,14 +208,14 @@ a:hover {
 	font-family: 'Prompt', sans-serif;
 }
 .projectText {
-    width: 70%;
-    height: 100%;
-    position: relative;
-    float: right;
-    text-align: left;
-    border-left: 3px solid #79CBD8;
-    color: #FFFFFF;
-    font-size: 15px;
+	width: 70%;
+	height: 100%;
+	position: relative;
+	float: right;
+	text-align: left;
+	border-left: 1px solid #79CBD8;
+	color: #FFFFFF;
+	font-size: 15px;
 }
 .projectTextTitle {
     width: 100%;
