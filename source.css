@@ -363,7 +363,7 @@ a:hover {
 		height: 1600px;
 	}
 	.bodyContainerResume{
-    height: 800px;
+    height: 900px;
 	}
 /*NAVBAR Start*/
 	.header {
@@ -446,10 +446,10 @@ a:hover {
 		font-size: 30px;
 	}
 	.projectTrailer{
-    		height: 300px;
-    		width: 90%;
-    		left: 5%;
-    		background-color: #000000;
+    	height: 300px;
+    	width: 90%;
+    	left: 5%;
+    	background-color: #000000;
 	}
 	.portfolioTitle{
 		height: 50px;
@@ -474,7 +474,7 @@ a:hover {
 		font-size: 30px;
 	}
 	.portfolioTextBody{
-		height: 100%;
+		height: 90%;
 		font-size: 14px;
 	}
 	/*Portfolio End*/
@@ -488,14 +488,14 @@ a:hover {
 	.resumeDownload{
 		width: 100%;
 		left: 0%;
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.resumeImage{
 		height: 600px;
 		width: 100%;
 		left:0%;
 	}
-	/*Rsume End*/
+	/*Resume End*/
 }
 
 
