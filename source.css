@@ -372,6 +372,7 @@ a:hover {
     	left: 0%;
 }
 	.horizontalList {
+		width: 32.5%;
     	font-size: 15px;
 }
 /* Dropdown Button */
@@ -454,13 +455,13 @@ a:hover {
 		height: 50px;
 	}
 	.portfolioBox{
-		height: 500px;
+		height: 800px;
 		width: 100%;
 		left: 0%;
 	}
 	.portfolioVideo{
 		width: 100%;
-		height: 45%;
+		height: 60%;
 		float: none;
 	}
 	.portfolioText{
@@ -487,7 +488,7 @@ a:hover {
 	.resumeDownload{
 		width: 100%;
 		left: 0%;
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.resumeImage{
 		height: 600px;
@@ -575,10 +576,10 @@ a:hover {
 	}
 	/*Front*/
 	.myName{
-		font-size: 75px;
+		font-size: 50px;
 	}
 	.jobTitle{
-		font-size: 40px;
+		font-size: 30px;
 	}
 	.aboutMe{
 		width: 75%;
@@ -590,10 +591,10 @@ a:hover {
 		left:0%;
 	}
 	.projectTextTitle{
-		font-size: 24px;
+		font-size: 22px;
 	}
 	.projectTextBody{
-		font-size: 14px;
+		font-size: 13px;
 	}
 	/*Project*/
 	.projectTrailer{
