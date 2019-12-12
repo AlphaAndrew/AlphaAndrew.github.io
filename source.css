@@ -367,7 +367,37 @@ a:hover {
 }
 
 
-
+@media (max-width:1440px){
+	/*Project*/
+	.projectTextBody{
+		font-size: 18px;
+	}
+	/*Portfolio*/
+	.projectTrailer{
+		width: 70%;
+		left: 15%;
+	}
+	.portfolioBox{
+		height: 240px;
+	}
+	.portfolioTextTitle{
+		font-size: 28px;
+	}
+	.portfolioTextBody{
+		font-size: 16px;
+	}
+	/*Resume*/
+	.resumeDownloadPDF{
+		font-size: 32px;
+	}
+	.resumeDownloadDOC{
+		font-size: 32px;
+	}
+	.resumeImage{
+		width: 60%;
+		left:20%;
+	}
+}
 
 @media (max-width:1370px){
 	/*Header*/
@@ -396,10 +426,15 @@ a:hover {
 		font-size: 14px;
 	}
 	/*Resume*/
-	.resumeDownload{
-		width: 70%;
-		left: 20%;
-		font-size: 35px;
+	.resumeDownloadPDF{
+		width: 49%;
+		left: 0%;
+		font-size: 40px;
+	}
+	.resumeDownloadDOC{
+		width: 49%;
+		left: 0%;
+		font-size: 40px;
 	}
 	.resumeImage{
 		width: 70%;
@@ -407,34 +442,7 @@ a:hover {
 	}
 }
 
-@media (max-width:1440px){
-	/*Project*/
-	.projectTextBody{
-		font-size: 18px;
-	}
-	/*Portfolio*/
-	.projectTrailer{
-		width: 70%;
-		left: 15%;
-	}
-	.portfolioBox{
-		height: 240px;
-	}
-	.portfolioTextTitle{
-		font-size: 28px;
-	}
-	.portfolioTextBody{
-		font-size: 16px;
-	}
-	/*Resume*/
-	.resumeDownload{
-		font-size: 32px;
-	}
-	.resumeImage{
-		width: 60%;
-		left:20%;
-	}
-}
+
 
 @media (max-width:800px){
 	.bodyContainerBTM{
@@ -496,10 +504,13 @@ a:hover {
 		font-size: 12px;
 	}
 	/*Resume*/
-	.resumeDownload{
-		width: 100%;
-		left:0%;
-		
+	.resumeDownloadPDF{
+		width: 49%;
+		left:0%;		
+	}
+	.resumeDownloadDOC{
+		width: 49%;
+		left:0%;		
 	}
 	.resumeImage{
 		width: 100%;
