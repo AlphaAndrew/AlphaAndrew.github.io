@@ -668,3 +668,25 @@ a:hover {
 	}
 	/*Resume End*/
 }
+
+@media (max-width:380px){
+	.horizontalList{
+		width: 32.3%;
+	}
+	.myName{
+		font-size: 40px;
+	}
+	.jobTitle{
+		font-size: 30px;
+	}
+	.aboutMe{
+		font-size: 16px;
+	}
+	.projectTextTitle{
+		font-size: 18px;
+	}
+	
+	.projectPageTitle{
+		font-size: 38px;
+	}
+}
