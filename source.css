@@ -345,7 +345,7 @@ a:hover {
     position: relative;
     display: inline-block;
     padding-top: 50px;
-    left: 10%;
+    left: 20%;
 }
 .resumeDownloadDOC{
     width: 30%;
@@ -356,7 +356,7 @@ a:hover {
     position: relative;
     display: inline-block;
     padding-top: 50px;
-    left: 30%;
+    left: 20%;
 }
 .resumeImage{
 	background-color: #7B2C2D;
