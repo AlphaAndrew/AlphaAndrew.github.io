@@ -8,24 +8,29 @@ html,body
     padding: 0px;
 }
 .bodyContainerHome {
-	width: 100%;
-	background-color: #132453;
-	height: 2000px;
-	border-left-width: medium;
+    width: 100%;
+    background-color: #091536;
+    height: 2300px;
+    border-left-width: medium;
 }
 .bodyContainerBTM {
 	width: 100%;
-	background-color: #132453;
+	background-color: #091536;
 	height: 1800px;
 }
 .bodyContainerLAW {
 	width: 100%;
-	background-color: #132453;
+	background-color: #091536;
 	height: 1500px;
+}
+.bodyContainerUP {
+	width: 100%;
+	background-color: #091536;
+	height: 1000px;
 }
 .bodyContainerResume {
     width: 100%;
-    background-color: #132453;
+    background-color: #091536;
     height: 1500px;
 }
 
@@ -114,12 +119,13 @@ a:hover {
 /*Top Section CSS Start*/
 
 .bannerImage {
-    background-image: url("Images/Code1800_1080.png");
+    background-image: url(Videos/BackgroundMix1.gif);
     width: 100%;
     height: 650px;
     background-color: #422FE7;
     z-index: -5;
     opacity: 1;
+    background-size: cover;
 }
 .myNamePanel{
 	background-color: rgba(0,0,0,0.75);
@@ -271,11 +277,27 @@ a:hover {
     border-bottom: 1px solid #79CBD8;
     border-top: 1px solid #79CBD8;
 }
+.portfolioBoxNoVideo {
+    width: 75%;
+    height: 300px;
+    background-color: #C74343;
+    position: relative;
+    left: 12.5%;
+    border-left: 1px solid #79CBD8;
+    border-right: 1px solid #79CBD8;
+    border-bottom: 1px solid #79CBD8;
+    border-top: 1px solid #79CBD8;
+}
 .portfolioText {
     width: 60%;
     position: relative;
     height: 100%;
     float: right;
+}
+.portfolioTextNoVideo {
+    width: 100%;
+    position: relative;
+    height: 100%;
 }
 .portfolioTextBody   {
     width: 100%;
@@ -366,8 +388,53 @@ a:hover {
 	height: 1200px;
 }
 
+@media (max-width:1680px){
+	/*Header*/
+	.bannerImage {
+    	height: 600px;
+	}
+	.myNamePanel{
+		height: 600px;
+	}
+	/*Project*/
+	.projectTextBody{
+		font-size: 19px;
+	}
+	/*Portfolio*/
+	.projectTrailer{
+		width: 70%;
+		left: 15%;
+	}
+	.portfolioBox{
+		height: 240px;
+	}
+	.portfolioTextTitle{
+		font-size: 28px;
+	}
+	.portfolioTextBody{
+		font-size: 16px;
+	}
+	/*Resume*/
+	.resumeDownloadPDF{
+		font-size: 32px;
+	}
+	.resumeDownloadDOC{
+		font-size: 32px;
+	}
+	.resumeImage{
+		width: 60%;
+		left:20%;
+	}
+}
 
 @media (max-width:1440px){
+	/*Header*/
+	.bannerImage {
+    	height: 600px;
+	}
+	.myNamePanel{
+		height: 600px;
+	}
 	/*Project*/
 	.projectTextBody{
 		font-size: 18px;
@@ -404,12 +471,18 @@ a:hover {
 	.horizontalList{
 		width: 32%;
 	}
+	.bannerImage {
+    	height: 550px;
+	}
+	.myNamePanel{
+		height: 550px;
+	}
 	/*Project*/
 	.projectTextTitle{
-		font-size: 30px;
+		font-size: 28px;
 	}
 	.projectTextBody{
-		font-size: 16px;
+		font-size: 14px;
 	}
 	/*Portfolio*/
 	.projectTrailer{
@@ -442,30 +515,55 @@ a:hover {
 	}
 }
 
+@media (max-width:1200px){
+	/*Header*/
+	.aboutMe{
+		font-size: 20px;
+	}
+	/*Project*/
+	.projectTextTitle{
+		font-size: 22px;
+	}
+	/*Portfolio*/
+	.projectPageTitle{
+		font-size: 48px;
+	}
+}
+
 @media (max-width:800px){
+	/*Containers*/
 	.bodyContainerBTM{
 		height:1400px;
 	}
 	.bodyContainerLAW{
 		height: 1200px;
 	}
+	.bodyContainerUP{
+		height: 700px;
+	}
 	/*Header*/
 	.header{
 		width: 100%;
 		left: 0%;
 	}
+	.bannerImage {
+    	height: 550px;
+		background-size: 100% 100%;
+	}
 	/*Front*/
 	.myName{
-		font-size: 70px;
+		font-size: 60px;
+		padding-top: 150px;
 	}
 	.myNamePanel{
-		height: 500px;
+		height: 450px;
 	}
 	.jobTitle{
-		font-size: 40px;
+		font-size: 34px;
+		padding-top: 100px;
 	}
 	.bannerImage{
-		height: 500px;
+		height: 450px;
 	}
 	.aboutMe{
 		width: 75%;
@@ -479,18 +577,26 @@ a:hover {
 		height: 350px;
 		left:0%;
 	}
+	.projectHeader{
+		font-size: 40px;
+	}
 	.projectTextTitle{
-		font-size: 26px;
+		font-size: 20px;
 	}
 	.projectTextBody{
 		font-size: 14px;
 	}
-	/*Project*/
+	/*Portfolio*/
 	.projectTrailer{
 		width: 100%;
 		left:0%;
 	}
 	.portfolioBox{
+		width:100%;
+		height: 180px;
+		left:0%;
+	}
+	.portfolioBoxNoVideo{
 		width:100%;
 		height: 180px;
 		left:0%;
@@ -517,6 +623,7 @@ a:hover {
 }
 
 @media (max-width:415px){
+	/*Containers*/
 	.bodyContainerHome{
 		height: 1500px;
 	}
@@ -529,7 +636,7 @@ a:hover {
 	.bodyContainerResume{
     	height: 900px;
 	}
-/*NAVBAR Start*/
+	/*Header*/
 	.header{
 		height: 30px;
 	}
@@ -543,10 +650,9 @@ a:hover {
 	.dropdown-content{
 		font-size: 14px;
 	}
-
-/*NAVBAR End*/
-
-/*Top Section Start*/
+	.bannerImage{
+		height: 300px;
+	}
 	.myNamePanel{
 		height: 300px;
 		width: 100%;
@@ -569,10 +675,9 @@ a:hover {
 		width: 80%;
 		height: 200px;
 		left: 10%;
-		font-size: 18px;
+		font-size: 16px;
 	}
-/*Top Section End*/
-/*Project Section Start*/
+	/*Project*/
 	.projectsSection{
 		font-size: 65px;
 		height: 800px;
@@ -593,7 +698,7 @@ a:hover {
 	}
 	.projectTextTitle{
 		height: 10%;
-		font-size: 22px;
+		font-size: 18px;
 	}
 	.projectTextBody{
 		height: 75%;
@@ -604,8 +709,7 @@ a:hover {
 		top:90%;
 		font-size: 24px;
 	}
-	/*Project End*/
-	/*Portfolio Start*/
+	/*Portfolio*/
 	.projectPageTitle{
 		height: 60px;
 		font-size: 40px;
@@ -624,6 +728,9 @@ a:hover {
 		width: 100%;
 		left: 0%;
 	}
+	.portfolioBoxNoVideo{
+		height: 500px;
+	}
 	.portfolioVideo{
 		width: 100%;
 		height: 38%;
@@ -639,12 +746,17 @@ a:hover {
 		left:0%;
 		font-size: 30px;
 	}
+	.portfolioTextTitle{
+		height: 15%;
+		width:100%;
+		left:0%;
+		font-size: 26px;
+	}
 	.portfolioTextBody{
 		height: 85%;
 		font-size: 16px;
 	}
-	/*Portfolio End*/
-	/*Resume Start*/
+	/*Resume*/
 	.resumeSection{
     height: 800px;
 	}
@@ -666,27 +778,39 @@ a:hover {
 		width: 100%;
 		left:0%;
 	}
-	/*Resume End*/
 }
 
 @media (max-width:380px){
+	/*Header*/
+	.bannerImage {
+    	height: 200px;
+	}
 	.horizontalList{
 		width: 32.3%;
 	}
 	.myName{
-		font-size: 40px;
+		font-size: 34px;
+		padding-top: 50px;
+	}
+	.myNamePanel{
+		height: 200px;
 	}
 	.jobTitle{
-		font-size: 30px;
+		font-size: 24px;
+		padding-top: 15px;
 	}
 	.aboutMe{
-		font-size: 16px;
+		font-size: 15px;
 	}
+	/*Project*/
 	.projectTextTitle{
 		font-size: 18px;
 	}
-	
 	.projectPageTitle{
 		font-size: 38px;
+	}
+	
+	.portfolioTextBody{
+		font-size: 14px;
 	}
 }
