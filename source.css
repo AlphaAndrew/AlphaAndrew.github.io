@@ -38,7 +38,7 @@ html,body
 
 .extraBody{
 	width: 100%;
-    background-color: #132453;
+    background-color: #091536;
     height: 200px;
 }
 a { color: inherit; }
@@ -148,16 +148,16 @@ a:hover {
 	padding-top: 200px;
 }
 .aboutMe {
-	width: 40%;
-	height: 250px;
-	position: relative;
-	left: 30%;
-	background-color: #C74343;
-	text-align: center;
-	font-size: 25px;
-	color: #FFFFFF;
-	font-family: 'Roboto Slab', serif;
-	border: 1px solid #79CBD8;
+    width: 40%;
+    height: 250px;
+    position: relative;
+    left: 30%;
+    background-color: #6F0202;
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'Roboto Slab', serif;
+    border: 1px solid #79CBD8;
 }
 .jobTitle {
 	font-size: 40px;
@@ -192,7 +192,7 @@ a:hover {
 .projectBox {
     width: 75%;
     height: 300px;
-    background-color: #C74343;
+    background-color: #6F0202;
     position: relative;
     left: 12.5%;
     border-left: 1px solid #79CBD8;
@@ -232,7 +232,7 @@ a:hover {
     color: #FFFFFF;
     text-align: center;
     font-size: 40px;
-    background-color: #AB3232;
+    background-color: #960000;
     border-bottom: 2px solid #79CBD8;
 }
 .projectTextLink {
@@ -269,7 +269,7 @@ a:hover {
 .portfolioBox {
     width: 75%;
     height: 325px;
-    background-color: #C74343;
+    background-color: #6F0202;
     position: relative;
     left: 12.5%;
     border-left: 1px solid #79CBD8;
@@ -280,7 +280,7 @@ a:hover {
 .portfolioBoxNoVideo {
     width: 75%;
     height: 300px;
-    background-color: #C74343;
+    background-color: #6F0202;
     position: relative;
     left: 12.5%;
     border-left: 1px solid #79CBD8;
@@ -315,7 +315,7 @@ a:hover {
     color: #FFFFFF;
     font-size: 40px;
     text-align: center;
-    background-color: #AB3232;
+    background-color: #960000;
     border-bottom: 2px solid #79CBD8;
 }
 
