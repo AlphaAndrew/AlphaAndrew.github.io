@@ -152,12 +152,12 @@ a:hover {
     height: 250px;
     position: relative;
     left: 30%;
-    background-color: #6F0202;
+    background-color: #7d132e;
     text-align: center;
     font-size: 25px;
     color: #FFFFFF;
     font-family: 'Roboto Slab', serif;
-    border: 1px solid #79CBD8;
+    border: 1px solid #48b81c;
 }
 .jobTitle {
 	font-size: 40px;
@@ -192,13 +192,13 @@ a:hover {
 .projectBox {
     width: 75%;
     height: 300px;
-    background-color: #6F0202;
+    background-color: #7d132e;
     position: relative;
     left: 12.5%;
-    border-left: 1px solid #79CBD8;
-    border-right: 1px solid #79CBD8;
-    border-bottom: 1px solid #79CBD8;
-    border-top: 1px solid #79CBD8;
+    border-left: 1px solid #48b81c;
+    border-right: 1px solid #48b81c;
+    border-bottom: 1px solid #48b81c;
+    border-top: 1px solid #48b81c;
     text-decoration: underline;
 }
 .projectIcon {
@@ -222,7 +222,7 @@ a:hover {
 	position: relative;
 	float: right;
 	text-align: left;
-	border-left: 1px solid #79CBD8;
+	border-left: 1px solid #48b81c;
 	color: #FFFFFF;
 	font-size: 15px;
 }
@@ -232,8 +232,8 @@ a:hover {
     color: #FFFFFF;
     text-align: center;
     font-size: 40px;
-    background-color: #960000;
-    border-bottom: 2px solid #79CBD8;
+    background-color: #ab183a;
+    border-bottom: 2px solid #48b81c;
 }
 .projectTextLink {
     width: 100%;
@@ -269,24 +269,24 @@ a:hover {
 .portfolioBox {
     width: 75%;
     height: 325px;
-    background-color: #6F0202;
+    background-color: #7d132e;
     position: relative;
     left: 12.5%;
-    border-left: 1px solid #79CBD8;
-    border-right: 1px solid #79CBD8;
-    border-bottom: 1px solid #79CBD8;
-    border-top: 1px solid #79CBD8;
+    border-left: 1px solid #48b81c;
+    border-right: 1px solid #48b81c;
+    border-bottom: 1px solid #48b81c;
+    border-top: 1px solid #48b81c;
 }
 .portfolioBoxNoVideo {
     width: 75%;
     height: 300px;
-    background-color: #6F0202;
+    background-color: #7d132e;
     position: relative;
     left: 12.5%;
-    border-left: 1px solid #79CBD8;
-    border-right: 1px solid #79CBD8;
-    border-bottom: 1px solid #79CBD8;
-    border-top: 1px solid #79CBD8;
+    border-left: 1px solid #48b81c;
+    border-right: 1px solid #48b81c;
+    border-bottom: 1px solid #48b81c;
+    border-top: 1px solid #48b81c;
 }
 .portfolioText {
     width: 60%;
@@ -315,21 +315,18 @@ a:hover {
     color: #FFFFFF;
     font-size: 40px;
     text-align: center;
-    background-color: #960000;
-    border-bottom: 2px solid #79CBD8;
+    background-color: #ab183a;
+    border-bottom: 2px solid #48b81c;
 }
-
-
-
 .portfolioVideo {
 	width: 40%;
 	height: 100%;
 	background-color: #000000;
 	position: relative;
-	border-left: 1px solid #79CBD8;
-	border-right: 1px solid #79CBD8;
-	border-bottom: 1px solid #79CBD8;
-	border-top: 1px solid #79CBD8;
+	border-left: 1px solid #48b81c;
+	border-right: 1px solid #48b81c;
+	border-bottom: 1px solid #48b81c;
+	border-top: 1px solid #48b81c;
 	float: left;
 	clear: right;
 	display: block;
