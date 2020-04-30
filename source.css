@@ -157,7 +157,7 @@ a:hover {
     font-size: 25px;
     color: #FFFFFF;
     font-family: 'Roboto Slab', serif;
-    border: 1px solid #48b81c;
+    border: 1px solid #79CBD8;
 }
 .jobTitle {
 	font-size: 40px;
@@ -195,10 +195,10 @@ a:hover {
     background-color: #7d132e;
     position: relative;
     left: 12.5%;
-    border-left: 1px solid #48b81c;
-    border-right: 1px solid #48b81c;
-    border-bottom: 1px solid #48b81c;
-    border-top: 1px solid #48b81c;
+    border-left: 1px solid #79CBD8;
+    border-right: 1px solid #79CBD8;
+    border-bottom: 1px solid #79CBD8;
+    border-top: 1px solid #79CBD8;
     text-decoration: underline;
 }
 .projectIcon {
@@ -222,7 +222,7 @@ a:hover {
 	position: relative;
 	float: right;
 	text-align: left;
-	border-left: 1px solid #48b81c;
+	border-left: 1px solid #79CBD8;
 	color: #FFFFFF;
 	font-size: 15px;
 }
@@ -232,8 +232,8 @@ a:hover {
     color: #FFFFFF;
     text-align: center;
     font-size: 40px;
-    background-color: #ab183a;
-    border-bottom: 2px solid #48b81c;
+    background-color: #960000;
+    border-bottom: 2px solid #79CBD8;
 }
 .projectTextLink {
     width: 100%;
@@ -272,10 +272,10 @@ a:hover {
     background-color: #7d132e;
     position: relative;
     left: 12.5%;
-    border-left: 1px solid #48b81c;
-    border-right: 1px solid #48b81c;
-    border-bottom: 1px solid #48b81c;
-    border-top: 1px solid #48b81c;
+    border-left: 1px solid #79CBD8;
+    border-right: 1px solid #79CBD8;
+    border-bottom: 1px solid #79CBD8;
+    border-top: 1px solid #79CBD8;
 }
 .portfolioBoxNoVideo {
     width: 75%;
@@ -283,10 +283,10 @@ a:hover {
     background-color: #7d132e;
     position: relative;
     left: 12.5%;
-    border-left: 1px solid #48b81c;
-    border-right: 1px solid #48b81c;
-    border-bottom: 1px solid #48b81c;
-    border-top: 1px solid #48b81c;
+    border-left: 1px solid #79CBD8;
+    border-right: 1px solid #79CBD8;
+    border-bottom: 1px solid #79CBD8;
+    border-top: 1px solid #79CBD8;
 }
 .portfolioText {
     width: 60%;
@@ -315,18 +315,21 @@ a:hover {
     color: #FFFFFF;
     font-size: 40px;
     text-align: center;
-    background-color: #ab183a;
-    border-bottom: 2px solid #48b81c;
+    background-color: #960000;
+    border-bottom: 2px solid #79CBD8;
 }
+
+
+
 .portfolioVideo {
 	width: 40%;
 	height: 100%;
 	background-color: #000000;
 	position: relative;
-	border-left: 1px solid #48b81c;
-	border-right: 1px solid #48b81c;
-	border-bottom: 1px solid #48b81c;
-	border-top: 1px solid #48b81c;
+	border-left: 1px solid #79CBD8;
+	border-right: 1px solid #79CBD8;
+	border-bottom: 1px solid #79CBD8;
+	border-top: 1px solid #79CBD8;
 	float: left;
 	clear: right;
 	display: block;
