@@ -10,7 +10,7 @@ html,body
 .bodyContainerHome {
     width: 100%;
     background-color: #091536;
-    height: 2300px;
+    height: 2500px;
     border-left-width: medium;
 }
 .bodyContainerBTM {
@@ -171,11 +171,41 @@ a:hover {
     width: 30%;
     height: 100%;
     position: relative;
-    background-color: #FF678D;
-	float: left;
-	clear: right;
-	display: block;
-	border: 1px solid #79CBD8;
+    float: left;
+    clear: right;
+    display: block;
+    border: 1px solid #79CBD8;
+}
+.contactInfo{
+	height: 75px;
+	width: 50%;
+	left: 25%;
+	position: relative;
+	background-color: #7d132e;
+    color: #FFFFFF;
+    border: 1px solid #79CBD8;
+}
+.contactInfoEmail{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'Roboto Slab', serif;
+    float: left;
+    line-height: 300%;
+}
+.contactInfoLI{
+    height: 100%;
+    width: 40%;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+	color: #8FACF0;
+    font-family: 'Roboto Slab', serif;
+    float: right;
+    line-height: 300%;
 }
 .jobTitle {
 	font-size: 40px;
@@ -201,11 +231,12 @@ a:hover {
 	font-family: 'Prompt', sans-serif;
 }
 .projectTrailer{
-	width: 50%;
-	height: 475px;
-	position: relative;
-	left: 25%;
-	top: 75px;
+    width: 50%;
+    height: 475px;
+    position: relative;
+    left: 25%;
+    top: 75px;
+    background-color: #000000;
 }
 .projectBox {
     width: 75%;
@@ -554,6 +585,14 @@ a:hover {
 	.aboutMeText{
 		font-size: 20px;
 	}
+	.contactInfoEmail{
+		font-size: 20px;
+		line-height: 350%;
+	}
+	.contactInfoLI{
+		font-size: 20px;
+		line-height: 350%;
+	}
 	/*Project*/
 	.projectTextTitle{
 		font-size: 22px;
@@ -606,6 +645,18 @@ a:hover {
 	}
 	.aboutMeText{
 		font-size: 22px;
+	}
+	.contactInfo{
+		width: 100%;
+		left: 0%;
+	}
+	.contactInfoEmail{
+		font-size: 22px;
+		line-height: 350%;
+	}
+	.contactInfoLI{
+		font-size: 22px;
+		line-height: 350%;
 	}
 	/*Project*/
 	.projectBox{
@@ -671,6 +722,14 @@ a:hover {
 	}
 	.bodyContainerResume{
     	height: 900px;
+	}
+	.contactInfoEmail{
+		font-size: 16px;
+		line-height: 500%;
+	}
+	.contactInfoLI{
+		font-size: 16px;
+		line-height: 500%;
 	}
 	/*Header*/
 	.header{
