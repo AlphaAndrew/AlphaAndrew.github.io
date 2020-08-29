@@ -52,13 +52,12 @@ a:hover {
 
 /*NAVBAR Start*/
 .header {
-    width: 40%;
+    width: 100%;
     height: 50px;
     position: fixed;
-    left: 30%;
     background-color: #79CBD8;
     z-index: 99;
-	font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 .horizontalList {
     font-size: 30px;
@@ -79,7 +78,7 @@ a:hover {
 .dropdown {
     position: relative;
     display: inline-block;
-    width: 32.9%;
+    width: 33.3%;
     height: 100%;
 }
 
