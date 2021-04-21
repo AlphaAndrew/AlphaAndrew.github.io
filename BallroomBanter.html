@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ballroom Banter</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Oxygen|Prompt|Roboto+Slab&display=swap" rel="stylesheet">
+	<link href="source.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+	 
+  <!-- body code goes here -->
+  <div class = "bodyContainerBB">
+		<div class = "header">
+            <a href="index.html#home"><div class = "horizontalList">Home</div></a>
+			<div class = "dropdown">
+            	<a href="index.html#projects"><div class = "dropbtn">Projects</div></a>
+					<div class="dropdown-content">
+						<a href = "BallroomBanter.html">Ballroom Banter</a>
+						<a href = "BeatTheMachine.html">Beat the Machine</a>
+						<a href = "LegendsAndWarfare.html">Legends and Warfare</a>
+						<a href = "UnannouncedProject1.html">Unannounced Project</a>
+					</div>
+		  </div>
+			<a href="Resume.html"><div class = "horizontalList">Resume</div></a>
+		</div>
+		
+	  <div class = "projectPageTitle">Ballroom Banter</div>
+	  
+	  <div class="portfolioTitle"></div>
+	  <div class="portfolioTitle"></div>
+	  <div class="portfolioTitle"></div>
+	  
+		<div class = "portfolioBox">
+			<div class = "portfolioVideo">
+				<img src = "Videos/BBCards.gif" style="width:100%;height:100%" alt="BTM Bosses">
+			</div>
+		  	<div class = "portfolioText">
+			  	<div class = "portfolioTextTitle">Card Mechanics</div>
+				<div class = "portfolioTextBody"> The most important mechanic of the game are the cards themselves. I worked on developing the mechanics to store and display the player's deck and hand, as well as tracking cards that were played and discarded. I also created each card's effect, and a system to evaluate the outcome of advanced card combinations.</div>
+			</div>
+		</div>
+	  
+	  <div class="portfolioTitle"></div>
+	  <div class = "portfolioBox">
+			<div class = "portfolioVideo">
+				<img src = "Videos/BBHub.gif" style="width:100%;height:100%" alt="BTM Bosses">
+			</div>
+		  	<div class = "portfolioText">
+			  	<div class = "portfolioTextTitle">Game Hub and Shop</div>
+				<div class = "portfolioTextBody"> Outside of the card battles themselves, the player can interact with the characters as well as view their deck and upgrade/remove cards. I was responsible for making sure these smaller connection systems worked correctly and managed the player's data. </div>
+			</div>
+		</div>
+		
+  	  <div class="portfolioTitle"></div>
+		<div class = "portfolioBoxNoVideo">
+		  	<div class = "portfolioTextNoVideo">
+			  	<div class = "portfolioTextTitle">Data Saving and Analytics</div>
+				<div class = "portfolioTextBody"> I built a robust save system for Ballroom Banter to ensure that game data never gets lost. All important data is put into a custom class and then serialized and saved on the device, which occurs on application closing as well as certain checkpoints in the game. I also implemented devtodev analytics into the game, allowing analysis of player gameplay, session length, etc.</div>
+			</div>
+		</div>		
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
